@@ -1,0 +1,183 @@
+{
+
+    "Leg":
+        [
+            {
+                "index":1,
+                "from":
+                {
+                        "bearing": 23,
+                        "instruction":
+                        {
+
+                                "direction":45,
+                                "message":"Bitte rechts abbiegen",
+                                "type":"lead"
+
+                        },
+                        "location":
+                        {
+
+                                "floor":1,
+                                "latitude":52.519824,
+                                "longitude":13.569225
+
+                        }
+
+                },
+                "to":
+                {
+                        "bearing": 23,
+                        "instruction":
+                        {
+
+                                "direction":45,
+                                "message":"Bitte links abbiegen",
+                                "type":"lead"
+
+                        },
+                        "location":
+                        {
+
+                                "floor":1,
+                                "latitude":52.519899,
+                                "longitude":13.568823
+
+                        }
+                }
+            },
+            {
+                "index":2,
+                "from":
+                {
+                    "bearing": 23,
+                    "instruction":
+                    {
+
+                        "direction":45,
+                        "message":"Bitte rechts abbiegen",
+                        "type":"lead"
+
+                    },
+                    "location":
+                    {
+
+                        "floor":1,
+                        "latitude":52.519899,
+                        "longitude":13.568823
+
+                    }
+
+                },
+                "to":
+                {
+                    "bearing": 23,
+                    "instruction":
+                    {
+
+                        "direction":45,
+                        "message":"Bitte links abbiegen",
+                        "type":"lead"
+
+                    },
+                    "location":
+                    {
+
+                        "floor":1,
+                        "latitude":52.519712,
+                        "longitude":13.568753
+
+                    }
+                }
+            },
+            {
+              "index":3,
+              "from":
+              {
+                "bearing": 23,
+                "instruction":
+                {
+
+                  "direction":45,
+                  "message":"Bitte rechts abbiegen",
+                  "type":"lead"
+
+                },
+                "location":
+                {
+
+                  "floor":1,
+                  "latitude":52.519712,
+                  "longitude":13.568753
+
+                }
+
+              },
+              "to":
+              {
+                "bearing": 23,
+                "instruction":
+                {
+
+                  "direction":45,
+                  "message":"Bitte links abbiegen",
+                  "type":"lead"
+
+                },
+                "location":
+                {
+
+                  "floor":1,
+                  "latitude":52.519800,
+                  "longitude":13.568163
+
+                }
+              }
+            },
+          {
+            "index":4,
+            "from":
+            {
+              "bearing": 23,
+              "instruction":
+              {
+
+                "direction":45,
+                "message":"Bitte rechts abbiegen",
+                "type":"lead"
+
+              },
+              "location":
+              {
+
+                "floor":1,
+                "latitude":52.519800,
+                "longitude":13.568163
+
+              }
+
+            },
+            "to":
+            {
+              "bearing": 23,
+              "instruction":
+              {
+
+                "direction":45,
+                "message":"Bitte links abbiegen",
+                "type":"lead"
+
+              },
+              "location":
+              {
+
+                "floor":1,
+                "latitude":52.519047,
+                "longitude":13.567908
+
+              }
+            }
+          }
+
+        ]
+}

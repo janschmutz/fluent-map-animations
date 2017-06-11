@@ -1,0 +1,200 @@
+body {
+    margin:0;
+}
+line {
+    stroke: #000;
+}
+a.t1 {
+    position: absolute;
+}
+a.t2 {
+    position: absolute;
+    left:100px;
+}
+a.t3 {
+    position: absolute;
+    left:200px;
+}
+.popup1 {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80vh;
+    width: 85%;
+    top: 10vh;
+    background: #FFF;
+    z-index: 20;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup1:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+}
+
+.popup1:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFF;
+    z-index: -1;
+    border-radius:10px;
+}
+.overlay-wrap{
+    width:100%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+}
+.overlay-wrap h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 140%;
+}
+.overlay-portait {
+    background-image: url("../../maptest/img/hinweise.png");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    overflow:hidden;
+    margin-bottom: 3vh;
+}
+.overlay-button {
+    background-color: #008C8E;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    border-radius: 50px;
+    text-align: center;
+}
+.overlay-button a{
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    margin: 2vh auto;
+
+}
+.overlay-txt p{
+    margin: 1rem;
+}
+
+.overlay-red {
+    height: 10vh;
+    background-color: rgb(255, 43, 46);
+    width: 105%;
+    margin: 0 0 0 -2.5%;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+}
+.overlay-white {
+    background-color: white;
+    height: 100%;
+    width:97.5%;
+    margin-left: 2.5%;
+    border-radius: 0 12px 12px 0;
+}
+.overlay-white p {
+    margin-left: 3%;
+    margin-bottom: 0.3vh;
+    font-size: 90%
+}
+.overlay-white img {
+    height: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 0.3vh;
+    margin-top: 0.3vh;
+    float:left;
+}
+.overlay-time {
+    margin-bottom: 0.2vh;
+    font-size: 85%;
+    color: grey;
+}
+.overlay-ende {
+    background-image: url("../../maptest/img/ziel.png");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    overflow:hidden;
+    margin-bottom: 3vh;
+}
+.popup2 {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 90vh;
+    width: 90%;
+    top: 5vh;
+    background: #FFF;
+    z-index: 20;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup2:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+}
+
+.popup2:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFF;
+    z-index: -1;
+    border-radius:10px;
+}
+.overlay-sectionwrap {
+    margin: 0 auto;
+    width: 90%;
+}
+.overlay-circle {
+    width: 9vh;
+    height: 9vh;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 2vh;
+}
+.overlay-name {
+    width:60%;
+    height:9vh;
+
+    float: left;
+    margin-left: 10%
+}
+.overlay-wrap hr {
+    clear:both;
+}

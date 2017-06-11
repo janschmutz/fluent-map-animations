@@ -1,0 +1,60 @@
+{
+"Position":
+            [
+              {
+              "accuracy": 80,
+              "bearing": 60,
+              "mode":"indoor",
+              "location":
+                {
+                "floor":1,
+                "latitude":52.519824,
+                "longitude":13.569225
+                }
+              },
+              {
+              "accuracy": 80,
+              "bearing": 60,
+              "mode":"indoor",
+              "location":
+              {
+                "floor":1,
+                "latitude":52.519899,
+                "longitude":13.568823
+              }
+              },
+              {
+                "accuracy": 80,
+                "bearing": 60,
+                "mode":"indoor",
+                "location":
+                {
+                  "floor":1,
+                  "latitude":52.519712,
+                  "longitude":13.568753
+                }
+              },
+              {
+                "accuracy": 80,
+                "bearing": 100,
+                "mode":"indoor",
+                "location":
+                {
+                  "floor":1,
+                  "latitude":52.519800,
+                  "longitude":13.568163
+                }
+              },
+              {
+                "accuracy": 80,
+                "bearing": 100,
+                "mode":"indoor",
+                "location":
+                {
+                  "floor":1,
+                  "latitude":52.519047,
+                  "longitude":13.567908
+                }
+              }
+              ]
+}
